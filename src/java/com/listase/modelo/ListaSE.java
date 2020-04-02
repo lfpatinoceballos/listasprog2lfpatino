@@ -111,7 +111,7 @@ public class ListaSE implements Serializable{
     {
         List<Infante> listado = new ArrayList<>();
         //Un método recursivo que recoora mis infantes y que sacando la
-        // info la adicione een el string
+        // info la adicione en el string
         listarInfantes(listado);
         return listado;
     }
